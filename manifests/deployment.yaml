@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: YOUR_DOCKER_HUB/backend:latest
+        image: mysarisa/backend:v1.0
         ports:
         - containerPort: 3000
